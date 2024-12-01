@@ -1,6 +1,4 @@
-/**
- * @jest-environment jsdom
- */
+
 import App from '../src/js/App';
 
 describe('check tooltip textContent on form submit', () => {

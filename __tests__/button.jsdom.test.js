@@ -1,5 +1,5 @@
 
-import App from '../src/js/App';
+import App from '../src/js/app.js';
 
 describe('check tooltip textContent on form submit', () => {
   const container = document.createElement('div');

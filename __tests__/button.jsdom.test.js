@@ -1,3 +1,6 @@
+/**
+ * @jest-environment jsdom
+ */
 
 import App from '../src/js/app.js';
 

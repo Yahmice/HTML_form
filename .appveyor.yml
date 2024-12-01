@@ -14,6 +14,12 @@ install:
 
 build: off  # отключаем встроенную в appveyor систему сборки
 
+build_script:
+  - yarn build # сборка проекта
+
+test_script:
+  - yarn test # скрипт тестирования
+
 deploy_script:  # скрипт развёртывания
   - git config --global credential.helper store
   - git config --global user.name AppVeyor
